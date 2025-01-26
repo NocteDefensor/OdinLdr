@@ -51,7 +51,7 @@ VOID Main(
 	allocatedMemory->AllocatedMemoryRegions[0].AllocationBase = pMemPeAddr;
 
 
-	// Allocate rtefion for BOF & SLeepmask
+	// Allocate memory region for BOF & SLeepmask
 
 	LPVOID lpBofAllocatedRegion = NULL;
 	SIZE_T stBofSize = BOF_MEMORY_SIZE;
